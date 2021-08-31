@@ -1,0 +1,21 @@
+.flex-row {
+  width: 600px;
+  border: 5px solid #444;
+  margin: 30px auto;
+  display: flex;
+  /* flex-direction: row; */
+  /* secara default, display flex memiliki flex-direction :row */
+}
+.flex-column {
+  width: 600px;
+  border: 5px solid #444;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+.child {
+  width: 120px;
+  height: 120px;
+  background-color: blueviolet;
+  margin: 2px;
+}
